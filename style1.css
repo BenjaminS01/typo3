@@ -11,7 +11,7 @@
     
     body,
     html {
-        background: white;
+        background: #e7e7e7!important;
         height: 100%;
     }
     
@@ -258,6 +258,7 @@
     .contend {
         min-height: 75%;
         margin-top: 50px;
+        background-color: #e7e7e7;
     }
     
     header {
@@ -295,7 +296,7 @@
         content: "";
         width: calc(100% - 1px);
         height: 1px;
-        background: #fff;
+        background: rgb(233, 4, 16);
         bottom: -6px;
         left: 0;
         -webkit-transform: scale(0, 1);
@@ -389,6 +390,9 @@
             padding-right: 0;
             text-align: center;
         }
+        .main-header li {
+            margin-top: 15px!important;
+        }
         .main-header .navbar-nav {
             margin-top: 70px;
         }
@@ -445,4 +449,50 @@
             background-color: #fff;
         }
         /*header ends*/
+    }
+    
+    .menu.icon {
+        color: #fff;
+        position: absolute;
+        margin-left: 2px;
+        margin-top: 10px;
+        width: 27px;
+        height: 3px;
+        background-color: currentColor;
+    }
+    
+    .menu.icon:before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 27px;
+        height: 3px;
+        background-color: currentColor;
+    }
+    
+    .menu.icon:after {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 27px;
+        height: 3px;
+        background-color: currentColor;
+    }
+    
+    .raindrop-solid.icon {
+        color: rgb(2, 147, 231);
+        margin: 0 auto;
+        width: 20px;
+        height: 20px;
+        background-color: currentColor;
+        border: solid 1px currentColor;
+        border-radius: 12px 12px 12px 0;
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    
+    .col-sm {
+        text-align: center;
     }
