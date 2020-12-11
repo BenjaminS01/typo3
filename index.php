@@ -30,6 +30,9 @@
                             <a href="#home" class="active active-first">Startseite</a>
                         </li>
                         <li>
+                            <a href="#service">Login</a>
+                        </li>
+                        <li>
                             <a href="#about">Über uns</a>
                         </li>
                         <li>
@@ -41,10 +44,18 @@
                         <li>
                             <a href="#team">Anfahrt</a>
                         </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Termine <b class="caret"></b></a>
+                            <ul class="dropdown-menu multi-level">
+                                <li style="margin-top:2px;"><a style="font-size: 11px!important;" href="#">Meine Termine</a></li>
+                                <li style="margin-top:10px!important;"><a style="font-size: 11px!important;margin-top:5px!important;" href="#">Neuer Termin</a></li>
+                                <li></li>
+                            </ul>
+                        </li>
+
                         <li>
 
                         </li>
-                    </ul>
                 </div>
             </nav>
         </div>
