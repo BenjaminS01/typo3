@@ -114,15 +114,15 @@
                 <div class="row">
 
                     <!-- Grid column -->
-                    <div class="col-sm ">
+                    <div class="col-sm-2" style="max-width: 15%;">
                         <div class="raindrop-solid icon"></div>
                     </div>
-                    <div class="col-sm ">
+                    <div class="col-sm" style="max-width: 60%;">
                         Impressum | Datenschutzerklärung
                     </div>
 
                     <!-- Content -->
-                    <div class="col-sm">
+                    <div class="col-sm-2" style="max-width: 15%;">
                         <div class="raindrop-solid icon"></div>
                     </div>
                 </div>
