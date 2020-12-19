@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style1.css" type="text/css">
+
+
+    <link rel="stylesheet" href="styles/index.processed.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
 <body>
 
 
@@ -5,13 +19,43 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg main-nav px-0">
                 <a class="navbar-brand" href="">
-                    {logo -> f:format.raw()}
+                    <img src="logo.jpg">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="menu icon"></div> 
                     </button>
                 <div class="collapse navbar-collapse" id="mainMenu">
-                    {menuPrimary -> f:format.raw()}
+                    <ul class="navbar-nav ml-auto text-uppercase f1">
+                        <li>
+                            <a href="#home" class="active active-first">Startseite</a>
+                        </li>
+                        <li>
+                            <a href="#service">Login</a>
+                        </li>
+                        <li>
+                            <a href="#about">Über uns</a>
+                        </li>
+                        <li>
+                            <a href="#service">Leistungen</a>
+                        </li>
+                        <li>
+                            <a href="#project">Öffnungszeiten</a>
+                        </li>
+                        <li>
+                            <a href="#team">Anfahrt</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Termine <b class="caret"></b></a>
+                            <ul class="dropdown-menu multi-level">
+                                <li style="margin-top:2px;"><a style="font-size: 11px!important;" href="#">Meine Termine</a></li>
+                                <li style="margin-top:10px!important;"><a style="font-size: 11px!important;margin-top:5px!important;" href="#">Neuer Termin</a></li>
+                                <li></li>
+                            </ul>
+                        </li>
+
+                        <li>
+
+                        </li>
                 </div>
             </nav>
         </div>
@@ -47,22 +91,24 @@
 
         <div class="container">
             <div style="margin-bottom:50px;">
-                <h1>{Titel}</h1>
+                <h1>Startseite</h1>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <f:if condition="{contend-margin}">
-                    <f:then>
-                        <div class="col-md-8 contend-main">{contendMain -> f:format.raw()}</div>
-                        <div class="col-md-4 contend-margin">{contendMargin -> f:format.raw()}</div>
-                    </f:then>
-                    <f:else>
-                        <div class="col-md-12 contend-main">{contendMain -> f:format.raw()}</div>
-                    </f:else>
-                </f:if>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="imgAbt" style="margin-left:20px!important; margin-bottom: 50px;">
+                    <img width="360" height="300" src="TruckWash.jpg" />
+                </div>
+            </div>
+            <div class="col-md-5">
+                <p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix
+                    and oLots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of
+                    a .clearfix and oLots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination
+                    of a .clearfix and oLots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a
+                    combination of a .clearfix and o</p>
             </div>
         </div>
+
 
     </div>
 
