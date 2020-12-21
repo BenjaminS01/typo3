@@ -707,3 +707,7 @@
     .dropdown-submenu:hover>a:after {
         border-left-color: transparent;
     }
+    
+    h2 {
+        background-color: rgb(4, 119, 185);
+    }
