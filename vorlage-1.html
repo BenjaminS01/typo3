@@ -35,26 +35,26 @@
 
 
 
-    <div class="contend">
+    <div class="content">
 
         <div class="container">
             <div style="margin-bottom:50px;">
                 <h1>{Titel}</h1>
             </div>
         </div>
-        <div class="container">
+        <main class="container">
             <div class="row">
-                <f:if condition="{contend-margin}">
+                <f:if condition="{contentMargin}">
                     <f:then>
-                        <div class="col-md-8 contend-main">{contendMain -> f:format.raw()}</div>
-                        <div class="col-md-4 contend-margin">{contendMargin -> f:format.raw()}</div>
+                        <div class="col-md-8 content-left">{contentLeft -> f:format.raw()}</div>
+                        <div class="col-md-4 content-margin">{contentMargin -> f:format.raw()}</div>
                     </f:then>
                     <f:else>
-                        <div class="col-md-12 contend-main">{contendMain -> f:format.raw()}</div>
+                        <div class="col-md-12 content-main">{contentMain -> f:format.raw()}</div>
                     </f:else>
                 </f:if>
             </div>
-        </div>
+        </main>
 
     </div>
 
