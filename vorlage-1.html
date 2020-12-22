@@ -42,18 +42,81 @@
                 <h1>{Titel}</h1>
             </div>
         </div>
-        <main class="container">
-            <div class="row">
-                <f:if condition="{contentMargin}">
-                    <f:then>
-                        <div class="col-md-4 content-left">{contentLeft -> f:format.raw()}</div>
-                        <div class="col-md-8 content-margin">{contentMargin -> f:format.raw()}</div>
-                    </f:then>
-                    <f:else>
-                        <div class="col-md-12 content-main">{contentMain -> f:format.raw()}</div>
-                    </f:else>
-                </f:if>
+
+
+        <main>
+            <div class="container">
+                <div class="row">
+                    <f:if condition="{contentRight}">
+                        <f:then>
+                            <div class="col-md-4 content-left">{contentLeft -> f:format.raw()}</div>
+                            <div class="col-md-4 content-margin">{contentMargin -> f:format.raw()}</div>
+                            <div class="col-md-4 content-right">{contentRight -> f:format.raw()}</div>
+                        </f:then>
+                        <f:else if="{contentMargin}">
+                            <div class="col-md-4 content-left">{contentLeft -> f:format.raw()}</div>
+                            <div class="col-md-8 content-margin">{contentMargin -> f:format.raw()}</div>
+                        </f:else>
+                        <f:else>
+                            <div class="col-md-12 content-main">{contentMain -> f:format.raw()}</div>
+                        </f:else>
+                    </f:if>
+                </div>
             </div>
+
+            <f:if condition="{contentMargin2}">
+                <f:then>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="column-wrapper">
+                        <div class="row">
+                            <f:if condition="{contentRight2}">
+                                <f:then>
+                                    <div class="col-md-4 content-left2">{contentLeft2 -> f:format.raw()}</div>
+                                    <div class="col-md-4 content-margin2">{contentMargin2 -> f:format.raw()}</div>
+                                    <div class="col-md-4 content-right2">{contentRight2 -> f:format.raw()}</div>
+                                </f:then>
+                                <f:else if="{contentMargin2}">
+                                    <div class="col-md-4 content-left2">{contentLeft2 -> f:format.raw()}</div>
+                                    <div class="col-md-8 content-margin2">{contentMargin2 -> f:format.raw()}</div>
+                                </f:else>
+                                <f:else>
+                                    <div class="col-md-12 content-main2">{contentMain2 -> f:format.raw()}</div>
+                                </f:else>
+                            </f:if>
+                        </div>
+                    </div>
+                </f:then>
+            </f:if>
+
+
+
+            <f:if condition="{contentMargin3}">
+                <f:then>
+                    <br>
+
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <f:if condition="{contentRight3}">
+                                <f:then>
+                                    <div class="col-md-4 content-left3">{contentLeft3 -> f:format.raw()}</div>
+                                    <div class="col-md-4 content-margin3">{contentMargin3 -> f:format.raw()}</div>
+                                    <div class="col-md-4 content-righ3">{contentRight3 -> f:format.raw()}</div>
+                                </f:then>
+                                <f:else if="{contentMargin3}">
+                                    <div class="col-md-4 content-left3">{contentLeft3 -> f:format.raw()}</div>
+                                    <div class="col-md-8 content-margin3">{contentMargin3 -> f:format.raw()}</div>
+                                </f:else>
+                                <f:else>
+                                    <div class="col-md-12 content-main3">{contentMain3 -> f:format.raw()}</div>
+                                </f:else>
+                            </f:if>
+                        </div>
+                    </div>
+                </f:then>
+            </f:if>
         </main>
 
     </div>
