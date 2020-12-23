@@ -62,6 +62,9 @@ return [
         'extensionmanager' => [
             'packagePath' => 'typo3/sysext/extensionmanager/',
         ],
+        'feedit' => [
+            'packagePath' => 'typo3/sysext/feedit/',
+        ],
         'felogin' => [
             'packagePath' => 'typo3/sysext/felogin/',
         ],
@@ -91,6 +94,12 @@ return [
         ],
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
+        ],
+        'news' => [
+            'packagePath' => 'typo3conf/ext/news/',
+        ],
+        'newsslider' => [
+            'packagePath' => 'typo3conf/ext/newsslider/',
         ],
     ],
     'version' => 5,

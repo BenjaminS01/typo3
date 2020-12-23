@@ -756,3 +756,8 @@
     footer .container {
         margin: 0 auto!important;
     }
+    
+    .news-list-item img {
+        max-width: 200px;
+        max-height: 130px;
+    }

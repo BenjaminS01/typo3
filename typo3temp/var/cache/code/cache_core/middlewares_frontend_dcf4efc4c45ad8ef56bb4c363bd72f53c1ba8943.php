@@ -1,6 +1,7 @@
 <?php
 return array (
   'typo3/cms-frontend/output-compression' => 'TYPO3\\CMS\\Frontend\\Middleware\\OutputCompression',
+  'typo3/cms-frontendedit/initiator' => 'TYPO3\\CMS\\Feedit\\Middleware\\FrontendEditInitiator',
   'typo3/cms-adminpanel/data-persister' => 'TYPO3\\CMS\\Adminpanel\\Middleware\\AdminPanelDataPersister',
   'typo3/cms-adminpanel/renderer' => 'TYPO3\\CMS\\Adminpanel\\Middleware\\AdminPanelRenderer',
   'typo3/cms-frontend/content-length-headers' => 'TYPO3\\CMS\\Frontend\\Middleware\\ContentLengthResponseHeader',
