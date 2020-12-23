@@ -11,7 +11,7 @@
     
     body,
     html {
-        background: #e7e7e7!important;
+        background-color: #fcf8f8!important;
         height: 100%;
     }
     
@@ -257,10 +257,10 @@
  * - Add any styles you want here!
  */
     
-    .contend {
+    .content {
         min-height: 75%;
         margin-top: 50px;
-        background-color: #e7e7e7;
+        margin-bottom: 100px;
     }
     
     header {
@@ -727,4 +727,32 @@
     hr {
         max-width: 90%;
         margin: 0 auto;
+    }
+    
+    footer a {
+        color: currentColor;
+        opacity: 0.5;
+        text-decoration: none;
+        max-width: 100px;
+        margin-right: 8px;
+        background-color: unset !important;
+        color: unset !important;
+    }
+    
+    .content .row {
+        background-color: white;
+        border-radius: 12px;
+        padding-bottom: 24px;
+        padding-top: 12px;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    
+    .content h2,
+    .content img {
+        margin-top: 50px!important;
+    }
+    
+    footer .container {
+        margin: 0 auto!important;
     }
