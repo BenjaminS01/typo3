@@ -11,8 +11,13 @@
     
     body,
     html {
-        background-color: #fcf8f8!important;
+        background-color: #fcf8f8;
         height: 100%;
+    }
+    
+    .content {
+        background-color: #fcf8f8;
+        padding-top: 30px;
     }
     
     h1 {
@@ -263,9 +268,25 @@
         margin-bottom: 100px;
     }
     
-    header {
-        background-image: linear-gradient(15deg, #4d4d52 0%, #0c0c0c 100%);
+    .title-wrapper {
+        background-image: url("Firma_Transporte.jpeg")!important;
+        /* Center the image */
+        background-repeat: no-repeat!important;
+        /* Do not repeat the image */
+        /* Resize the background image to cover the entire container */
+        background-size: cover;
+        min-height: 330px;
+        margin-bottom: -60px!important;
+    }
+    
+    .main-header {
+        background-image: linear-gradient(15deg, #343435 0%, #050505c5 100%);
         color: rgb(255, 255, 255);
+        min-height: 140px;
+    }
+    
+    .navbar-collapse {
+        margin-top: 45px;
     }
     /* main-header start */
     
@@ -357,7 +378,7 @@
     }
     
     .main-header .navbar-brand img {
-        border-radius: 99%;
+        border-radius: 5px;
         height: 140px;
         width: 140px;
         max-width: 350px;
@@ -710,8 +731,9 @@
         border-left-color: transparent;
     }
     
-    h2 {
-        background-image: linear-gradient(15deg, #2ab0ee 0%, #2ba2f1be 100%);
+    .title h2 {
+        color: rgb(27, 19, 19)!important;
+        text-align: center;
     }
     
     footer .row {
@@ -753,6 +775,10 @@
         margin-top: 50px!important;
     }
     
+    h2 {
+        color: white!important;
+    }
+    
     footer .container {
         margin: 0 auto!important;
     }
@@ -761,3 +787,9 @@
         max-width: 200px;
         max-height: 130px;
     }
+    
+    main h2 {
+        background-image: linear-gradient(15deg, #1087f7 0%, #3d9be97e 100%);
+    }
+    
+    .main-header {}

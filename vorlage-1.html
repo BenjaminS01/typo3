@@ -1,23 +1,21 @@
 <body>
 
+    <div class="title-wrapper">
+        <header class="main-header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg main-nav px-0">
 
-    <header class="main-header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg main-nav px-0">
-                <a class="navbar-brand" href="">
-                    {logo -> f:format.raw()}
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="menu icon"></div> 
                     </button>
-                <div class="collapse navbar-collapse" id="mainMenu">
-                    {menuPrimary -> f:format.raw()}
-                </div>
-            </nav>
-        </div>
-        <!-- /.container -->
-    </header>
-    <!--
+                    <div class="collapse navbar-collapse" id="mainMenu">
+                        {menuPrimary -> f:format.raw()}
+                    </div>
+                </nav>
+            </div>
+            <!-- /.container -->
+        </header>
+        <!--
 
     Wow! What do you want to build?
 
@@ -26,22 +24,22 @@
    
   -->
 
-    <!-- Bootstrap core JavaScript
+        <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+        <!-- Placed at the end of the document so the pages load faster -->
 
 
 
 
-
+    </div>
 
     <div class="content">
 
-        <div class="container">
-            <div style="margin-bottom:50px;">
-                <h1>{Titel}</h1>
-            </div>
+
+        <div style="margin-bottom:50px;">
+            <div class="title">{title -> f:format.raw()}</div>
         </div>
+
 
 
         <main>
