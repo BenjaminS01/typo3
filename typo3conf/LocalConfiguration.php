@@ -14,16 +14,16 @@ return [
         'Connections' => [
             'Default' => [
                 'charset' => 'utf8mb4',
-                'dbname' => 't3w20',
-                'driver' => 'mysqli',
-                'host' => '127.0.0.1',
-                'password' => '',
+                'dbname' => 'heroku_7557596746311ab',
+                'driver' => 'com.mysql.cj.jdbc.Driver',
+                'host' => 'eu-cdbr-west-03.cleardb.net',
+                'password' => 'de6c8f77',
                 'port' => 3306,
                 'tableoptions' => [
                     'charset' => 'utf8mb4',
                     'collate' => 'utf8mb4_unicode_ci',
                 ],
-                'user' => 'root',
+                'user' => 'b3a1ae2ae898b0',
             ],
         ],
     ],
