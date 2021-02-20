@@ -1,0 +1,28 @@
+{
+    "name": "sagenda/sagenda-calendar-typo3",
+    "type": "typo3-cms-extension",
+    "description": "This is a scheduling and reservation calendar and agenda.",
+    "authors": [
+        {
+            "name": "Sagenda",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sagenda\\SagendaCalendarTypo3\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sagenda\\SagendaCalendarTypo3\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "sagenda_calendar_typo3": "self.version",
+        "typo3-ter/sagenda-calendar-typo3": "self.version"
+    }
+}

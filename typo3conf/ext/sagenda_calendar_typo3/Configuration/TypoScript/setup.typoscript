@@ -1,0 +1,23 @@
+
+plugin.tx_sagendacalendartypo3_sagendacalendartypo3 {
+    view {
+        templateRootPaths.0 = EXT:sagenda_calendar_typo3/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_sagendacalendartypo3_sagendacalendartypo3.view.templateRootPath}
+        partialRootPaths.0 = EXT:sagenda_calendar_typo3/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_sagendacalendartypo3_sagendacalendartypo3.view.partialRootPath}
+        layoutRootPaths.0 = EXT:sagenda_calendar_typo3/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_sagendacalendartypo3_sagendacalendartypo3.view.layoutRootPath}
+    }
+}
+
+page {
+    includeCSS {
+        sagendastyles = EXT:sagenda_calendar_typo3/Resources/Public/assets/angular/styles.css
+    }
+
+    includeJSLibs {
+        runtime = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/runtime.js
+        polyfills = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/polyfills.js
+        main = EXT:sagenda_calendar_typo3/Resources/Public/JavaScript/main.js
+    }
+}
